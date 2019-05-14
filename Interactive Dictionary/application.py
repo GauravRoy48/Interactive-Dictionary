@@ -1,3 +1,13 @@
+##################################################################################
+# Creator     : Gaurav Roy
+# Date        : 12 May 2019
+# Description : The code contains the recreation on an interactive dictionary
+#               that is created by accessing the data.json file. The interactive
+#               code can search by accounting for captial letters, but not account
+#               for special characters all the time.
+#               The code can also suggest words based on spelling mistakes.
+##################################################################################
+
 import json
 # https://docs.python.org/3/library/index.html
 from difflib import get_close_matches
